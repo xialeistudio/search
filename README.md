@@ -28,6 +28,8 @@ jquery.search
 	$.x_search();//返回[{name:"example"},{age:"20"}]
 
 3.获取指定url的指定值
-$.x_search('name','http://www.site.com/?name=exa');//返回 exa
+
+	$.x_search('name','http://www.site.com/?name=exa');//返回 exa
+
 ##作者主页##
 [JustThink](http://www.ddhigh.com/ "JustThink")
