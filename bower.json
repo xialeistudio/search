@@ -1,0 +1,26 @@
+{
+  "name": "jquery.search",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xialeistudio/search",
+  "authors": [
+    "xialeistudio <1065890063@qq.com>"
+  ],
+  "description": "a jquery plugin operation window.location.search",
+  "main": "jquery.search.js",
+  "keywords": [
+    "jquery",
+    "search"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
