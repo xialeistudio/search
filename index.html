@@ -49,7 +49,13 @@
         <h1>
 <a name="jquerysearch" class="anchor" href="#jquerysearch"><span class="octicon octicon-link"></span></a>jquery.search</h1>
 
-<p>基于jquery开发的读取url查询参数的小插件</p>
+<p>基于jquery开发的读取url查询参数的小插件,功能：</p>
+
+<p>查询给定的url查询指定key的值</p>
+
+<p>查询window.location.search查询指定key的值</p>
+
+<p>查询window.location.search所有queryString的键值对数组</p>
 
 <h2>
 <a name="%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83" class="anchor" href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="octicon octicon-link"></span></a>开发环境</h2>
@@ -71,6 +77,11 @@
 <p>2.获取所有</p>
 
 <pre><code>$.x_search();//返回[{name:"example"},{age:"20"}]
+</code></pre>
+
+<p>3.获取指定url的指定值</p>
+
+<pre><code>$.x_search('name','http://www.site.com/?name=exa');//返回 exa
 </code></pre>
 
 <h2>
