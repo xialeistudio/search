@@ -15,10 +15,13 @@
  * $.x_search();
  */
 (function($) {
-	$.x_search = function(_name) {
+	$.x_search = function(_name,target) {
+		if(typeof target == 'undefined'){
+			target =  window.location.search;
+		}
 		if (typeof _name == 'undefined') {
 			//所有
-			var query = window.location.search.substr(1, window.location.search.length-1).split('&');
+			var query =target.substr(1, window.location.search.length-1).split('&');
 			var data = [];
 			for (var i = 0; i < query.length; i++) {
 				var tmp = query[i].split('=');
@@ -33,7 +36,7 @@
 			//指定Key
 			try {
 				var regex = new RegExp(_name+'=([^&]+)?');
-				return decodeURIComponent(window.location.search.match(regex)[1]);
+				return decodeURIComponent(target.match(regex)[1]);
 			}
 			catch (e) {
 				return null;
