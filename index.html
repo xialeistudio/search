@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Search by xialeistudio</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/xialeistudio/search">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Search</h1>
+            <h2>a jquery plugin operation window.location.search</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/xialeistudio/search/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/xialeistudio/search/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="jquerysearch" class="anchor" href="#jquerysearch"><span class="octicon octicon-link"></span></a>jquery.search</h1>
+
+<p>基于jquery开发的读取url查询参数的小插件</p>
+
+<h2>
+<a name="%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83" class="anchor" href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="octicon octicon-link"></span></a>开发环境</h2>
+
+<p>本插件基于jquery 2.1.1 开发，其他版本jquery请自行测试</p>
+
+<h2>
+<a name="%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B" class="anchor" href="#%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B"><span class="octicon octicon-link"></span></a>使用教程</h2>
+
+<p>请确保每个key后面的值经过了 <code>encodeURIComponent()</code> 方法编码</p>
+
+<p>示例url:<a href="http://www.example.com/?name=example&amp;age=20">http://www.example.com/?name=example&amp;age=20</a></p>
+
+<p>1.获取指定key的值</p>
+
+<pre><code>$.x_search('name'); //返回 example
+</code></pre>
+
+<p>2.获取所有</p>
+
+<pre><code>$.x_search();//返回[{name:"example"},{age:"20"}]
+</code></pre>
+
+<h2>
+<a name="%E4%BD%9C%E8%80%85%E4%B8%BB%E9%A1%B5" class="anchor" href="#%E4%BD%9C%E8%80%85%E4%B8%BB%E9%A1%B5"><span class="octicon octicon-link"></span></a>作者主页</h2>
+
+<p><a href="http://www.ddhigh.com/" title="JustThink">JustThink</a></p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/xialeistudio">xialeistudio</a> can be found on <a href="https://github.com/xialeistudio/search">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
